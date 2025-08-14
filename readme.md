@@ -16,7 +16,18 @@ Para iniciar o GIT em uma pasta do computador utilizamos o init.
 git init
 ```
 
-Para verificar a situação do repositório (pasta) usamoso status a qualquer momento.
+Para verificar a situação do repositório (pasta) usamos o status a qualquer momento.
 ``` bash
 git status
+```
+
+Quando o status mostrar arquivos em vermelho é necessário rodar o add para adicionar os arquivos a serem salvos.
+. adiciona todos os arquivos da pasta atual
+``` bash
+git add .
+
+```
+Para salvar, utiliza-se o 'commit', juntamente com uma mensagem para lembrar o porque salvou as alterações.
+``` bash
+git commit -m "mensagem do commit"
 ```
