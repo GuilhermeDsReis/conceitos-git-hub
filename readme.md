@@ -15,6 +15,13 @@ Para iniciar o GIT em uma pasta do computador utilizamos o init.
 ``` bash
 git init
 ```
+Para vincular o projeto ao Github utilizamos o comando remote, basta o repositório estar criado no Github e seguir a segunda opção da lisata
+de comandos que aparece no site. <br>
+**IMPORTANTE:** Depois do remote deve ser executados os outros 2 comandos da página.
+``` bash
+git remote add origin < url_respositorio_github >
+```
+
 
 Para verificar a situação do repositório (pasta) usamos o status a qualquer momento.
 ``` bash
